@@ -13,10 +13,10 @@ main {
     width: 100px;
     height: 50px;
 }
-.navbar-nav ul li a {
+.navbar-nav .nav-link.active {
     color: #455579;
 }
-.nav-link {
+.nav-link{
     color: #455579;
 }
 .card-header img {
@@ -41,6 +41,7 @@ h5,p{
     height: 360px;
 }
 .bubbleFloat {
+    cursor: pointer;
     position: fixed;
     height: 100px;
     width: 100px;
