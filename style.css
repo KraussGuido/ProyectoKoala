@@ -1,11 +1,13 @@
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     max-width: 1920px;
 }
 main {
     background-color: #455579;
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 80px; 
 }
 .logo {
     width: 100px;
@@ -13,4 +15,41 @@ main {
 }
 .navbar-nav ul li a {
     color: #455579;
+}
+.nav-link {
+    color: #455579;
+}
+.card-header img {
+    height: 60px;
+    width: 60px;
+}
+.card-header {
+    background-color: #dad8d9;
+}
+.container-maps {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.container-maps iframe {
+    border-radius: 10px;
+}
+h5,p{
+    text-align: center;
+}
+.local {
+    height: 360px;
+}
+.bubbleFloat {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    bottom: 120px;
+    right: 22px;
+    z-index: 1;
+}
+.bubbleFloat img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 }
