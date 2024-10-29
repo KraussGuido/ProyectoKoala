@@ -3,7 +3,7 @@ body {
     max-width: 1920px;
 }
 main {
-    background-color: #066aab;
+    background-color: #455579;
     padding: 20px;
     margin-top: 80px;
 }
@@ -12,5 +12,5 @@ main {
     height: 50px;
 }
 .navbar-nav ul li a {
-    color: #066aab;
+    color: #455579;
 }
