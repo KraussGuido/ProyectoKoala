@@ -1,0 +1,16 @@
+
+body {
+    max-width: 1920px;
+}
+main {
+    background-color: #066aab;
+    padding: 20px;
+    margin-top: 80px;
+}
+.logo {
+    width: 100px;
+    height: 50px;
+}
+.navbar-nav ul li a {
+    color: #066aab;
+}
