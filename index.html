@@ -40,93 +40,17 @@
       </nav>
 </header>
 <main>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/productos/WhatsApp Image 2024-10-28 at 21.08.20 (1).jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/productos/WhatsApp Image 2024-10-28 at 21.08.21.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/productos/WhatsApp Image 2024-10-28 at 21.16.39.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/productos/WhatsApp Image 2024-10-28 at 21.16.40 (1).jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-              <img src="./img/productos/WhatsApp Image 2024-10-28 at 21.16.40 (2).jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="./img/productos/WhatsApp Image 2024-10-28 at 21.16.40.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img class="local" src="./img/local/descarga (5).png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col" id="ubicacion">
-            <div class="card h-100">
-                <h5 class="card-title">¿Donde estamos?</h5>
-                <div class="map-responsive">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.2143179862014!2d-58.76771705123949!3d-34.436713777867325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9fe64bc81019%3A0xea044f5bd223aea2!2sKoala!5e0!3m2!1ses-419!2sar!4v1730181808954!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-                </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img class="local" src="./img/local/descarga.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="bubbleFloat">  
+    <div id="containerProductos" class="row row-cols-1 row-cols-md-3 g-4">
+        
+          <div class="bubbleFloat">
             <a href="https://api.whatsapp.com/send?phone=541170741664" target="_blank">
-              <img src="./img/logo/WhatsApp Image 2024-10-28 at 21.08.20.jpeg" alt="koalalogo">
+              <img src="./img/logo/whatsapp.png" alt="">
             </a>
           </div>
-      </div>
+    </div>
+    <div id="ubicacion" class="container-maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.6043649404596!2d-58.768277323510034!3d-34.436803348703506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9fe64bc81019%3A0xea044f5bd223aea2!2sKoala!5e0!3m2!1ses-419!2sar!4v1731540484487!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </main>
 <footer>
     <div class="card text-center">
@@ -138,6 +62,7 @@
 </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="prod.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
