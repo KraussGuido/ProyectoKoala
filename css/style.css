@@ -7,7 +7,11 @@ body {
 main {
     background-color: #455579;
     padding: 20px;
-    margin-top: 80px; 
+    margin-top: 70px;
+}
+header {
+    background-color: white;
+    height: 70px;
 }
 .logo {
     width: 100px;
@@ -34,12 +38,13 @@ h5,span{
     justify-content: center;
 }
 .col {
-    max-width: 480px;
-    max-height: 480px;
+    max-width: 360px;
+    max-height: 400px;
+    margin: 50px 20px;
 }
 .img-Prod {
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 .btn-comprar {
@@ -87,4 +92,65 @@ h5,span{
     top:0;
     height:100%;
     width:100%;
+}
+.navbar {
+    padding: 0px;
+}
+
+.container-cart {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    left: 70%;
+    top: 10px;
+}
+.info-cart-product {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px;
+    width: 350px;
+    height: 80px;
+}
+.carrito {
+    position: fixed;
+    top: 10px;
+    left: 70%;
+}
+#cart-producto {
+    position: relative;
+    top: 60px;
+    background-color: white;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.count-products {
+    display: flex;
+    position: absolute;
+    background-color: #455579;
+    border-radius: 100%;
+    justify-content: center;
+    top: 20px;
+    left: 50px;
+    width: 25px;
+    height: 25px;
+}
+.totalPagar {
+    position: absolute;
+    background-color: white;
+    height: 80px;
+    width: 300px;
+}
+
+
+svg {
+    width: 50px;
+    height: 50px;
+    color: #455579;
+}
+
+.info-cart-product span {
+    color: black;
 }
